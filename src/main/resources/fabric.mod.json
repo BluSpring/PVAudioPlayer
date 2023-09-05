@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "pvaudioplayer",
+  "version": "${version}",
+  "name": "Plasmo Audio Player",
+  "description": "Port of pv-addon-discs for Fabric.",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/BluSpring/PVAudioPlayer"
+  },
+  "license": "MIT",
+  "icon": "assets/pvaudioplayer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "su.plo.voice.discs.DiscsPlugin"
+    ]
+  },
+  "mixins": [
+    "pvaudioplayer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

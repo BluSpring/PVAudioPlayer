@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "su.plo.voice.discs.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "InstrumentItemMixin",
+    "JukeboxBlockAccessor",
+    "JukeboxBlockEntityAccessor",
+    "JukeboxBlockEntityMixin",
+    "JukeboxBlockMixin",
+    "RecordItemMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

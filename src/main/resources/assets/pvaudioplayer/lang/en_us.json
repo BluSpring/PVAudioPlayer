@@ -1,0 +1,20 @@
+{
+  "pv.addon.discs.error.erase_wrong_item": "§cCan't erase this item",
+  "pv.addon.discs.error.get_track_fail": "§cFailed to get the track: %s",
+  "pv.addon.discs.error.search_fail": "§cFailed to get the search result: %s",
+  "pv.addon.discs.error.not_a_record": "§cYou need have a record in your hand to burn it",
+  "pv.addon.discs.error.not_burnable": "§cThis record is not burnable",
+  "pv.addon.discs.error.unknown_subcommand": "§cUnknown subcommand. Available commands: %s",
+  "pv.addon.discs.error.no_permission": "§cNo permission",
+  "pv.addon.discs.usage.burn": "§cUsage: /discs burn <url> [label]",
+  "pv.addon.discs.arg.url": "<url>",
+  "pv.addon.discs.arg.label": "[label]",
+  "pv.addon.discs.arg.search": "<search>",
+  "pv.addon.discs.actionbar.track_not_found": "Track not found: %s",
+  "pv.addon.discs.actionbar.playing": "Now playing: %s",
+  "pv.addon.discs.actionbar.loading": "Loading...",
+  "pv.addon.discs.success.erase": "§aCustom audio erased",
+  "pv.addon.discs.success.burn": "§aDisc burned. Label: %s",
+  "pv.addon.discs.format.search_entry": "§e%1$s §7by %2$s",
+  "pv.activation.discs": "Discs"
+}
